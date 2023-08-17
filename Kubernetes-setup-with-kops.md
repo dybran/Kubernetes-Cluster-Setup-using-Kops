@@ -1,4 +1,4 @@
-### __KUBERNETES SETUP WITH KUBERNETES OPERATIONS (KOPS)__
+## __KUBERNETES SETUP WITH KUBERNETES OPERATIONS (KOPS)__
 
 __Kops - Kubernetes Operations__ is a tool that helps you create, upgrade, and manage Kubernetes clusters on cloud infrastructure providers like AWS, GCP and more. Setting up Kubernetes using __Kops__ involves several steps.
 
