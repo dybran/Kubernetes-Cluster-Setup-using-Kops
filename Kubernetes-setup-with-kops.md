@@ -121,7 +121,7 @@ To make __kops__ globally accessible
 ![](./images/dsaw.PNG)
 
 
-Veriify domain __kubekops.dybran.com__
+Verify domain __kubekops.dybran.com__
 
 `$ nslookup -type=ns kubekops.dybran.com`
 
