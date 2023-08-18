@@ -86,7 +86,7 @@ Make kubectl executable
 
 `$ sudo chmod +x kubectl`
 
-To make __kubcetl__ globally accessible
+To make __kubectl__ globally accessible
 
 `$ sudo mv kubectl /usr/local/bin/`
 
