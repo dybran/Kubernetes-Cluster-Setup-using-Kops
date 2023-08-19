@@ -37,7 +37,7 @@ Kops will establish a cluster and utilize awscli for interaction with AWS servic
 - Establishing an IAM role and linking it to the kops instance.
 - Generating access keys and securely storing them within the instance.
 
-n my approach, I will choose to establish an IAM role, storing the access keys within the kops instance. This will grant the instance substantial permissions, including administrator-level access. I've arrived at this choice because the IAM role must effectively engage with a diverse array of services like S3 buckets and Route53. Following this, I will associate this IAM role with the instance.
+In my approach, I will choose to establish an IAM role, storing the access keys within the kops instance. This will grant the instance substantial permissions, including administrator-level access. I've arrived at this choice because the IAM role must effectively engage with a diverse array of services like S3 buckets and Route53. Following this, I will associate this IAM role with the instance.
 
 ![](./images/21.PNG)
 ![](./images/22.PNG)
