@@ -144,10 +144,7 @@ Verify domain __kubekops.dybran.com__
 
 Create configurations for the cluster and store in the S3 bucket using the command:
 
-`$ kops create cluster --name=kubekops.dybran.com \
---state=s3://project-kops-state --zones=us-east-1a,us-east-1b \
---node-count=2 --node-size=t3.small --master-size=t3.medium --dns-zone=kubekops.dybran.com \
---node-volume-size=8 --master-volume-size=8`
+`$ kops create cluster --name=kubekops.dybran.com --state=s3://project-kops-state --zones=us-east-1a,us-east-1b --node-count=2 --node-size=t3.small --master-size=t3.medium --dns-zone=kubekops.dybran.com --node-volume-size=8 --master-volume-size=8`
 
 ![](./images/lfc.PNG)
 
